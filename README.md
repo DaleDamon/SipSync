@@ -5,31 +5,66 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Welcome</title>
+  <title>Wine Pairing Platform</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Inter', sans-serif;
+      background-color: #fdfdfd;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 40px 20px;
       text-align: center;
-      padding: 50px;
-      background-color: #f0f0f0;
     }
+
+    .logo {
+      max-width: 180px;
+      margin-bottom: 30px;
+    }
+
     h1 {
-      color: #333;
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #2c2c2c;
     }
-    .button {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #007bff;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-      margin-top: 20px;
+
+    p {
+      font-size: 1.1rem;
+      color: #555;
+      max-width: 600px;
+      margin-bottom: 40px;
+    }
+
+    .coming-soon {
+      font-size: 0.9rem;
+      color: #888;
     }
   </style>
 </head>
 <body>
-  <h1>Hello!</h1>
-  <p>This is my landing page hosted on GitHub Pages.</p>
-  <a href="https://example.com" class="button">Visit Main Site</a>
+
+  <!-- Replace the logo URL below with your own logo image -->
+<img width="227" height="175" alt="SipSync Logo" src="https://github.com/user-attachments/assets/c087912e-b140-4b25-94dc-a204c447c84f" />
+
+  <h1>Coming Soon</h1>
+  <p>
+    A platform offering seamless, curated wine pairing recommendations to consumers — both at restaurants and at home.
+  </p>
+
+  <div class="coming-soon">
+    © 2025 WinePairing Inc. All rights reserved.
+  </div>
+
 </body>
 </html>
