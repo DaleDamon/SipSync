@@ -52,6 +52,13 @@
 header h1 a[href="https://sipsync.tech/"] {
   display: none !important;
 }
+/* Hide the GitHub Pages injected title link */
+header h1,
+header h1 a,
+.site-title,
+.repo-name {
+  display: none !important;
+}
   </style>
 </head>
 <body>
