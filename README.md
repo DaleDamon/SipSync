@@ -1,6 +1,5 @@
-# SipSync[index.html](https://github.com/user-attachments/files/22455163/index.html)
+[index.html](https://github.com/user-attachments/files/22455163/index.html)
 <!-- index.html -->
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
