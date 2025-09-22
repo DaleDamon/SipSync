@@ -48,6 +48,10 @@
       font-size: 0.9rem;
       color: #888;
     }
+    /* Hides the SipSync link added by GitHub Pages */
+header h1 a[href="https://sipsync.tech/"] {
+  display: none !important;
+}
   </style>
 </head>
 <body>
