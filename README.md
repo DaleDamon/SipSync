@@ -1,4 +1,4 @@
-(https://github.com/user-attachments/files/22455163/index.html)
+
 <!-- index.html -->
 <html lang="en">
 <head>
