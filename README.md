@@ -54,7 +54,7 @@
 <body>
 
   <!-- Replace the logo URL below with your own logo image -->
-<img width="227" height="175" alt="SipSync Logo" src="https://github.com/user-attachments/assets/c087912e-b140-4b25-94dc-a204c447c84f" />
+<img width="227" height="175" alt="" src="https://github.com/user-attachments/assets/c087912e-b140-4b25-94dc-a204c447c84f" />
 
   <h1>Coming Soon</h1>
   <p>
