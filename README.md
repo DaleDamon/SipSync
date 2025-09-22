@@ -1,4 +1,4 @@
-[index.html](https://github.com/user-attachments/files/22455163/index.html)
+(https://github.com/user-attachments/files/22455163/index.html)
 <!-- index.html -->
 <html lang="en">
 <head>
@@ -62,7 +62,6 @@
   </p>
 
   <div class="coming-soon">
-    © 2025 WinePairing Inc. All rights reserved.
   </div>
 
 </body>
