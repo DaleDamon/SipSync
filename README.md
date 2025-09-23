@@ -93,7 +93,7 @@
     <p>
       A platform offering seamless, curated wine pairing recommendations to consumers — both at restaurants and at home.
     </p>
-    <a class="btn" href="mailto:hello@sipsync.tech">Contact Us</a>
+    <a class="btn" href="mailto:ddamon0@chicagobooth.edu">Contact Us</a>
   </div>
 
   <footer>
