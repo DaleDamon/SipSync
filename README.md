@@ -96,9 +96,5 @@
     <a class="btn" href="mailto:ddamon0@chicagobooth.edu">Contact Us</a>
   </div>
 
-  <footer>
-    &copy; 2025 Wine Pairing Platform. All rights reserved.
-  </footer>
-
 </body>
 </html>
