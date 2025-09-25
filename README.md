@@ -101,19 +101,16 @@
     <!-- ✅ Using your original logo image reference -->
     <img class="logo" src="https://github.com/user-attachments/assets/c087912e-b140-4b25-94dc-a204c447c84f" alt="Logo" />
 
-    <h1>WinePair is Coming Soon</h1>
+    <h1>SipSync is Coming Soon</h1>
 
     <p class="subtitle">
-      Discover the art of wine pairing with ease. Whether you're dining out or cooking at home, WinePair will provide tailored wine suggestions to complement every meal.
+      Discover the art of wine pairing with ease. Whether you're dining out or cooking at home, SipSync will provide tailored wine suggestions to complement every meal.
     </p>
 
     <a href="mailto:ddamon0@chicagobooth.edu">
       <button class="btn">Contact Us</button>
     </a>
-
-    <footer>
-      &copy; 2025 WinePair. All rights reserved.
-    </footer>
+    
   </main>
 
 </body>
