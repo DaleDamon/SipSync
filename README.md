@@ -16,7 +16,7 @@
     html, body {
       height: 100%;
       font-family: 'Inter', sans-serif;
-      background: linear-gradient(to bottom right, #4b0f1f, #f9e1e3);
+      background: linear-gradient(to bottom, #4b0f1f, #f9e1e3); /* Mobile-friendly gradient */
       color: #fff;
       line-height: 1.6;
       scroll-behavior: smooth;
@@ -26,7 +26,7 @@
     .container {
       max-width: 1100px;
       margin: 0 auto;
-      padding: 40px 20px;
+      padding: 60px 24px; /* Better spacing on mobile */
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -87,10 +87,21 @@
     /* Responsive Typography */
     @media (max-width: 768px) {
       h1 {
-        font-size: 2.2rem;
+        font-size: 2rem;
+        margin-bottom: 16px;
       }
+
       p.subtitle {
-        font-size: 1.1rem;
+        font-size: 1rem;
+        margin-bottom: 30px;
+      }
+
+      .btn {
+        padding: 12px 24px;
+      }
+
+      .logo {
+        max-width: 140px;
       }
     }
   </style>
@@ -110,9 +121,8 @@
     <a href="mailto:ddamon0@chicagobooth.edu">
       <button class="btn">Contact Us</button>
     </a>
-
+    
   </main>
 
 </body>
 </html>
-
