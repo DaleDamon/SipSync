@@ -16,26 +16,30 @@
     html, body {
       height: 100%;
       font-family: 'Inter', sans-serif;
-      background: linear-gradient(to bottom, #4b0f1f, #f9e1e3); /* Mobile-friendly gradient */
+      background: linear-gradient(to bottom, #4b0f1f, #f9e1e3);
       color: #fff;
       line-height: 1.6;
       scroll-behavior: smooth;
+      overflow-x: hidden; /* ✅ Prevent horizontal scroll */
     }
 
     /* Layout */
     .container {
       max-width: 1100px;
+      width: 100%;              /* ✅ Prevent overflow */
       margin: 0 auto;
-      padding: 60px 24px; /* Better spacing on mobile */
+      padding: 60px 24px;
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
+      overflow-x: hidden;       /* ✅ Just in case */
     }
 
     /* Logo */
     .logo {
-      max-width: 160px;
+      max-width: 100%;         /* ✅ Responsive image */
+      height: auto;
       margin-bottom: 30px;
       border-radius: 8px;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -68,6 +72,7 @@
       cursor: pointer;
       transition: all 0.3s ease;
       box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      max-width: 100%;          /* ✅ Prevent button overflow */
     }
 
     .btn:hover {
@@ -98,6 +103,8 @@
 
       .btn {
         padding: 12px 24px;
+        font-size: 1rem;
+        width: auto;
       }
 
       .logo {
@@ -109,7 +116,7 @@
 <body>
 
   <main class="container">
-    <!-- ✅ Using your original logo image reference -->
+    <!-- ✅ Your original logo -->
     <img class="logo" src="https://github.com/user-attachments/assets/c087912e-b140-4b25-94dc-a204c447c84f" alt="SipSync Logo" />
 
     <h1>SipSync is Coming Soon</h1>
@@ -121,7 +128,7 @@
     <a href="mailto:ddamon0@chicagobooth.edu">
       <button class="btn">Contact Us</button>
     </a>
-    
+
   </main>
 
 </body>
