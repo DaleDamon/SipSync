@@ -20,32 +20,29 @@
       color: #fff;
       line-height: 1.6;
       scroll-behavior: smooth;
-      overflow-x: hidden; /* ✅ Prevent horizontal scroll */
+      overflow-x: hidden;
     }
 
-    /* Layout */
     .container {
       max-width: 1100px;
-      width: 100%;              /* ✅ Prevent overflow */
+      width: 100%;
       margin: 0 auto;
       padding: 60px 24px;
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
-      overflow-x: hidden;       /* ✅ Just in case */
+      overflow-x: hidden;
     }
 
-    /* Logo */
     .logo {
-      max-width: 100%;         /* ✅ Responsive image */
+      max-width: 100%;
       height: auto;
       margin-bottom: 30px;
       border-radius: 8px;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     }
 
-    /* Headings */
     h1 {
       font-family: 'Playfair Display', serif;
       font-size: 3rem;
@@ -60,7 +57,6 @@
       color: #fce8ea;
     }
 
-    /* Button */
     .btn {
       padding: 14px 32px;
       font-size: 1rem;
@@ -72,7 +68,7 @@
       cursor: pointer;
       transition: all 0.3s ease;
       box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-      max-width: 100%;          /* ✅ Prevent button overflow */
+      max-width: 100%;
     }
 
     .btn:hover {
@@ -81,7 +77,6 @@
       border: 2px solid #fff;
     }
 
-    /* Footer */
     footer {
       margin-top: 80px;
       font-size: 0.9rem;
@@ -89,7 +84,6 @@
       opacity: 0.8;
     }
 
-    /* Responsive Typography */
     @media (max-width: 768px) {
       h1 {
         font-size: 2rem;
@@ -116,7 +110,6 @@
 <body>
 
   <main class="container">
-    <!-- ✅ Your original logo -->
     <img class="logo" src="https://github.com/user-attachments/assets/c087912e-b140-4b25-94dc-a204c447c84f" alt="SipSync Logo" />
 
     <h1>SipSync is Coming Soon</h1>
@@ -129,6 +122,9 @@
       <button class="btn">Contact Us</button>
     </a>
 
+    <footer>
+      &copy; 2025 SipSync. All rights reserved.
+    </footer>
   </main>
 
 </body>
