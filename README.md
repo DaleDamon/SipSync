@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>WinePair — Curated Wine Pairing Platform</title>
+  <title>SipSync — Curated Wine Pairing Platform</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <style>
     /* Base reset */
@@ -99,18 +99,18 @@
 
   <main class="container">
     <!-- ✅ Using your original logo image reference -->
-    <img class="logo" src="https://github.com/user-attachments/assets/c087912e-b140-4b25-94dc-a204c447c84f" alt="Logo" />
+    <img class="logo" src="https://github.com/user-attachments/assets/c087912e-b140-4b25-94dc-a204c447c84f" alt="SipSync Logo" />
 
     <h1>SipSync is Coming Soon</h1>
 
     <p class="subtitle">
-      Discover the art of wine pairing with ease. Whether you're dining out or cooking at home, SipSync will provide tailored wine suggestions to complement every meal.
+      Discover the art of wine pairing with ease. Whether you're dining out or cooking at home, <strong>SipSync</strong> provides tailored wine suggestions to complement every meal.
     </p>
 
     <a href="mailto:ddamon0@chicagobooth.edu">
       <button class="btn">Contact Us</button>
     </a>
-    
+
   </main>
 
 </body>
